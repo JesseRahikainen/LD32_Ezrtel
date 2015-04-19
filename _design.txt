@@ -1,0 +1,54 @@
+An Unconventional Weapon
+
+2. Train - You have to build tracks in front of a train, trying to guide it towards your targets. You have to build the tracks fast enough so the train doesn't go off them, but you want it close enough to actually be able to hit the target. Train speeds up as time passes.
+Grid based levels, maybe have some obstacles you can't build tracks through. Building over old tracks destroys them. The train is an engine with 3 cars. If one of your opponents hits any one of these they die. If the train ever gets to a spot where it isn't going onto a valid track piece it crashes. The train speeds up as time goes on.
+
+7. The Great Panjandrum - You have to clear a path on a beach for soldiers, you do this by setting off Panjandrums. You decide where and how long it will go. Once it reachs it's time limit it explodes. It also takes out any soldiers (friendly or hostile) it hits.
+Would be top down, enemy and allied troops would come out occasionally, you're slightly outnumbered so they enemy will eventually win without your intervention. You choose where to launch them from, what direction, and how long they'll last before exploding. Could do it all with the mouse, click on a point near the bottom of the screen and draw a line. Various obstacles can change the behavior of the panjadrum, barbed wire slows it down but is destroyed, ramps can make it jump over soldiers, trenches slow it down but are always there.
+Each side can let so many soldier into their own side before they lose.
+
+8. Traps - You only have access to traps, you have to avoid enemies otherwise. Dropping rocks, spike pits, etc. Look through my Grimtooth books for ideas. You also have to lure enemies into traps. Similar to the Deception games.
+You have some base traps that do damage, but you have others that can do stuff like push or trip the enemies. Maybe some are triggerable by that, so you have to put oil down to make the enemy slide into the spikes.
+Top down, very simple enemy behaviors: they wander around, if they see you they head towards you, if they touch you you lose. Can cry out to draw their attention.
+Different enemy types: Standard, quick, strong, disarmer
+Random layout? No, probably won't be able to make anything good enough.
+Do the enemies have any target other than you? Maybe you're having to defend something, a large gem in the center of the dungeon.
+
+10. A Conventional Weapon - A battle game where you're up against people with large, outrageous, and unconventional weapons. You have a sword and shield. Probably three fights, one with some sort of ball and chain or whip, another with a double bladed scythe, and the last with a huge boomerang.
+You can dash, attack, walk, and guard. You face the direction you move, except for dash, if you dash in a direction you keep your original facing. If you get hit while guarding you take no damage, but you're stunned for a bit. The dash has no invincibility, it just moves you faster for a bit. Parrying, when the weapon hits you while you're guarding you can press the attack button to parry the weapon, this has various effects depending on the weapon.
+Barbed Chain - snaps forward, or spins around their head. The snap forward is long range and has a long cool down. The spin is shorter range. This will be the first battle, so no difficult tricks, bait them into using the snap then dash in and stab. Parrying the chain while it's spinning will make it shoot out away from the player, giving it the long cool down and giving the player more chances for stabbing as they are closer. Parrying the snap forward will have a similar effect, but it will go even farther.
+Double Bladed Scythe - All close ranged attacks, but attacks all have a slow down, has occasional combos, have to watch for tells. Parryings the scythe will stumble the enemy for a while, they'll then dodge backwards. Has a charge forward attack, a single swing, and a double swing. Will constantly try to push the player back.
+Boomerang - The key to this enemy is parrying when they throw. Will jump away from the player whenever they get too close, parrying the boomerang will cause it to fly off in a direction and stop so they'll have to go get it. They'll be helpless during this, constantly trying to get close, and willing to let the player closer.
+
+
+
+The Beaches of Ezrtel
+Setting: A beach in a WW2-esque battle.
+Weapon: The Great Panjandrum
+
+You are helping in a beach invasion. While the troops go up the beach you have to launch panjandrums up the beach to attempt to breach their defenses. The defenders have a numeric and positional advantage that you have to try and overcome.
+
+Controls:
+You choose a point to launch from, and a point to launch to. If there's nothing else in the way the drum rolls to that point, then explodes. Hitting a soldier slows it down a little bit, hitting an obstacle 
+
+Obstacles:
+Barbed-Wire - Stops the advancement of your troops, just rolling over it will destroy it, but also slow down the panjadrum a bit.
+Pits - Pits soldiers can lay down in to gain some cover. Soldiers in a pit are immune to being hit by a rolling panjandrum, but still vulnerable to it's explosion.
+ - Invulnerable to the panjadrum, you have to get soldiers here to take it out.
+Land Mines - Rolling over these will cause them to explode, destroying the panjadrum, but also destroying the mines.
+
+
+Troops:
+Very simple, they walk forward, if there's an enemy within range they stop and shoot. If they walk into a pit and there's a free spot they go there and hold it.
+Troops can also have engineers, these are rare and will modify the battle field. Defending troops will lay down obstacles, attacking troops will remove them.
+Animations - Walk, stand, shoot, crouch, crouch-shoot, die, explode
+
+Screen
+Should it be tall or long? Long would mean the game would be more hectic, you'd have to switch focus a lot. The tall would give some natural ramp to difficulty, the farther your troops get the harder it is for you to get a good shot. I like the tall more.
+600x800, each tile will be 20x20
+No, long, will allow more dynamic interactions.
+
+Controls
+We need to select two things, where the drum will be launched from, and where it will go to. Use right mouse button to set where to launch from, left mouse button to launch. Cool down between launches.
+
+Could have the menu be the tutorial, you start the game by making it explode over one of the menu options, only do this if there is a way to get the spawning of objects in after you hit start.
